@@ -1,0 +1,71 @@
+body{
+    background: url(https://fm-base.co.uk/attachments/mobile-technology-jpg.476193/) 100% fixed no-repeat;
+    background-size: 150% 150%;
+    /* animation: gradient 20s ease infinite; */
+    height: 100vh;
+    width: auto;
+}
+.form{
+    justify-content: center;
+    width: 380px;
+    height: auto;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #0bda65 ;
+    margin: auto;
+    padding: 20px;
+    top: 100px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(57, 19, 118, 0.685);
+    color:rgba(255, 255, 255, 0.936);
+}
+
+h3{
+    color: #eef585;
+    font-size: 30px;
+}
+.errorMsg{
+    color: red;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: auto;
+    margin: auto;
+}
+
+label{
+    font-size: 15px;
+    margin: 10px;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #c7a9da;
+    border-color: rgb(224, 195, 232);
+}
+
+input:focus{
+    background-color: #ebdaf4;
+    border-color: rgb(225, 216, 227);
+}
+
+input[type="submit"]{
+    padding: 10px;
+    width: 300px;
+    background-color: #ad68db;
+    color: rgb(241, 228, 254);
+    border: 1px solid #254f3789;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: #ad68db57;
+    color: rgb(224, 180, 249);
+}
